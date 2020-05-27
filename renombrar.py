@@ -1,9 +1,9 @@
 import os
 import re
+# esta es la forma en que debe entrar la ruta si esta en windows ("c:\\youtubedl\\PHP"):
 carpeta_ficheros=input(r"ruta en windows asi c:\\youtubedl\\PHP ")
 for original in os.listdir(carpeta_ficheros):
-# esta es la forma en que debe entrar la ruta si esta en windows ("c:\\youtubedl\\PHP"):
-	#carpeta_ficheros="c:\\youtubedl\\PHP\\"
+    #carpeta_ficheros="c:\\youtubedl\\PHP\\"
 	numeritos=re.findall(r"[-+]?\d*\.\d+|\d+", original)
 	#var_num=numeritos[0]
 	#print(original)
