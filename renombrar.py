@@ -13,6 +13,3 @@ for original in os.listdir(carpeta_ficheros):
 	print(str(numeritos[0])+"-"+original)
 	os.rename(carpeta_ficheros+original, carpeta_ficheros+cambio)
 
-#os.rename("C:\\youtubedl\\PHP\\Curso PHP MySQL. Ámbitos de las variables. Vídeo 6-wcNXqTkISvg.mp4","C:\\youtubedl\\PHP\\6-Curso PHP MySQL. Ámbitos de las variables. Vídeo 6-wcNXqTkISvg.mp4")	
-
-
