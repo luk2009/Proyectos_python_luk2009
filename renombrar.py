@@ -1,6 +1,6 @@
 import os
 import re
-carpeta_ficheros=input("ruta ")
+carpeta_ficheros=input(r"ruta en windows asi c:\\youtubedl\\PHP ")
 for original in os.listdir(carpeta_ficheros):
 #("c:\\youtubedl\\PHP"):
 	#carpeta_ficheros="c:\\youtubedl\\PHP\\"
